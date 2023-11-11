@@ -9,9 +9,7 @@ class RecipeFacade
     response = conn.get
 
     json = JSON.parse(response.body, symbolize_names: true)
-    @recipes = json[:hits].map do |recipe|
-      Recipe.new(recipe)
-    end
+    
+    json[:hits].map { |recipe| Recipe.new(recipe) }
   end
-
 end
