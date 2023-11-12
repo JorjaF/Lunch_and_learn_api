@@ -6,13 +6,15 @@ RSpec.describe 'API V1 Recipes', type: :request do
     let(:country) { 'Chinese' } 
 
     before do
-      stub_request(:get, 'https://api.edamam.com/api/recipes/v2?type=public&app_id=fc7547dd&app_key=400d1c90d81cbfda83f899e56246e802&cuisineType=Chinese')
+      app_id = Rails.application.credentials.dig(:edamam, :app_id)
+      app_key = Rails.application.credentials.dig(:edamam, :app_key)
+      stub_request(:get, "https://api.edamam.com/api/recipes/v2?type=public&app_id=#{app_id}&app_key=#{app_key}&cuisineType=Chinese")
         .to_return(
           status: 200,
           body: File.read('spec/fixtures/recipes_by_country.json'),
           headers: { 'Content-Type' => 'application/json' }
         )
-      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=fc7547dd&app_key=400d1c90d81cbfda83f899e56246e802&cuisineType=butt&type=public").
+      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{app_id}&app_key=#{app_key}&cuisineType=butt&type=public").
         with(
           headers: {
           'Accept'=>'*/*',
@@ -31,7 +33,7 @@ RSpec.describe 'API V1 Recipes', type: :request do
           }).
         to_return(status: 200, body: File.read("spec/fixtures/random_country.json"), headers: {})
 
-      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=fc7547dd&app_key=400d1c90d81cbfda83f899e56246e802&cuisineType=Greek&type=public").
+      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{app_id}&app_key=#{app_key}&cuisineType=Greek&type=public").
         with(
           headers: {
           'Accept'=>'*/*',
