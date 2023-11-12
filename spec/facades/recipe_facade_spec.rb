@@ -5,13 +5,14 @@ RSpec.describe RecipeFacade, type: :facade do
     let(:country) { 'italian' } 
 
     it 'returns recipes for a specific country' do
-      # Stubbing Faraday to return a specific response for the test
+      edamam_key = Rails.application.credentials.dig(:edamam, :app_key)
+      edamam_id = Rails.application.credentials.dig(:edamam, :app_id)
       stub_request(:get, 'https://api.edamam.com/api/recipes/v2')
         .with(
           query: {
             'type' => 'public',
             'app_id' => 'fc7547dd',
-            'app_key' => '400d1c90d81cbfda83f899e56246e802',
+            'app_key' => Rails.application.credentials.dig(:edamam, :app_key),
             'cuisineType' => country
           }
         )
