@@ -23,7 +23,6 @@ RSpec.describe 'API V1 Recipes', type: :request do
           }).
         to_return(status: 200, body: File.read("spec/fixtures/no_value.json"), headers: {})
 
-
       stub_request(:get, "https://restcountries.com/v3.1/all").
         with(
           headers: {
