@@ -5,6 +5,7 @@ RSpec.describe TouristSitesFacade, type: :facade do
   describe ".destinations" do
     let(:lng) { 10.0 }
     let(:lat) { 20.0 }
+    let(:geolocation) { LatLng.new(lng: lng, lat: lat) }
 
     before do
       stub_request(:get, "https://api.geoapify.com/v2/places")
@@ -23,7 +24,7 @@ RSpec.describe TouristSitesFacade, type: :facade do
     end
 
     it "returns destinations based on the provided coordinates" do
-      destinations = TouristSitesFacade.destinations(lng, lat)
+      destinations = TouristSitesFacade.destinations(geolocation)
 
       expect(destinations).to be_an(Array)
       expect(destinations).not_to be_empty

@@ -20,6 +20,7 @@ class CountriesFacade
 
     json = JSON.parse(response.body, symbolize_names: true)
     
-    json.first[:latlng]
+    lat_lng = json.first[:latlng]
+    LatLng.new(lat: lat_lng[0], lng: lat_lng[1])
   end
 end
