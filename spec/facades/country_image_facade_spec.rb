@@ -8,10 +8,10 @@ RSpec.describe CountryImageFacade do
       stub_request(:get, "https://api.unsplash.com/search/photos?query=Laos")
       .with(
         headers: {
-        'Accept'=>'*/*',
-        'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
-        'Authorization'=>'Client-ID ' + Rails.application.credentials.dig(:unsplash, :api_key),
-        'User-Agent'=>'Faraday v2.7.11'
+        "Accept"=>"*/*",
+        "Accept-Encoding"=>"gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+        "Authorization"=>"Client-ID " + Rails.application.credentials.dig(:unsplash, :api_key),
+        "User-Agent"=>"Faraday v2.7.11"
         })
         .to_return(
           status: 200,
