@@ -24,13 +24,15 @@ RSpec.describe CountriesFacade, type: :facade do
   describe '.capital' do
     let(:city) { 'Paris' }
 
-    before do
-      stub_request(:get, "https://restcountries.com/v3.1/name/#{city}?fields=latlng")
-        .to_return(
-          status: 200,
-          body: File.read('spec/fixtures/latlng_response.json'),
-          headers: { 'Content-Type' => 'application/json' }
-        )
+    before do       
+      stub_request(:get, "https://restcountries.com/v3.1/capital/Paris?fields=latlng").
+      with(
+        headers: {
+        'Accept'=>'*/*',
+        'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
+        'User-Agent'=>'Faraday v2.7.11'
+        }).
+      to_return(status: 200, body: File.read('spec/fixtures/latlng_response.json'), headers: {})
     end
 
     it 'returns the capital of the specified country' do
