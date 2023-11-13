@@ -1,0 +1,1182 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Ruines du château",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Le Monteil-au-Vicomte",
+              "isolated_dwelling": "Rocheplate",
+              "municipality": "Guéret",
+              "postcode": "23460",
+              "street": "D 37",
+              "lon": 1.9384857093620629,
+              "lat": 45.92922595,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Ruines du château, D 37, 23460 Le Monteil-au-Vicomte, France",
+              "address_line1": "Ruines du château",
+              "address_line2": "D 37, 23460 Le Monteil-au-Vicomte, France",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "heritage",
+                  "tourism",
+                  "tourism.sights"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Ruines du château",
+                      "osm_id": 176167790,
+                      "ref:mhs": "PA00100111",
+                      "building": "castle",
+                      "heritage": 3,
+                      "historic": "heritage",
+                      "osm_type": "w",
+                      "wikidata": "Q2971743",
+                      "wikipedia": "fr:Ruines du château",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1964-02-19"
+                  }
+              },
+              "place_id": "514f4e194fdd03ff3f599c1feab7f0f64640f00102f9016e1b800a000000009203125275696e6573206475206368c3a274656175"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9384434785651086,
+                  45.929221143072226
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Église Saint-Pierre-de-Vérone",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Le Monteil-au-Vicomte",
+              "isolated_dwelling": "Rocheplate",
+              "municipality": "Guéret",
+              "postcode": "23460",
+              "street": "Rue de l'Église",
+              "lon": 1.9371479470917352,
+              "lat": 45.929743900000005,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Église Saint-Pierre-de-Vérone, Rue de l'Église, 23460 Le Monteil-au-Vicomte, France",
+              "address_line1": "Église Saint-Pierre-de-Vérone",
+              "address_line2": "Rue de l'Église, 23460 Le Monteil-au-Vicomte, France",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.place_of_worship",
+                  "heritage",
+                  "religion",
+                  "religion.place_of_worship",
+                  "religion.place_of_worship.christianity",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.place_of_worship",
+                  "tourism.sights.place_of_worship.church"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Église Saint-Pierre-de-Vérone",
+                      "osm_id": 176168871,
+                      "amenity": "place_of_worship",
+                      "ref:mhs": "PA00100112",
+                      "building": "church",
+                      "heritage": 3,
+                      "historic": "heritage",
+                      "osm_type": "w",
+                      "religion": "christian",
+                      "wikidata": "Q3584191",
+                      "wikipedia": "fr:Église Saint-Pierre du Monteil-au-Vicomte",
+                      "denomination": "catholic",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1933-05-01"
+                  }
+              },
+              "place_id": "511eaa81738ffefe3f59e2cf80d401f74640f00102f901a71f800a0000000092031fc389676c697365205361696e742d5069657272652d64652d56c3a9726f6e65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9371485244724975,
+                  45.92974334993029
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Église Saint-Sulpice",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Banize",
+              "hamlet": "Haute-Faye",
+              "municipality": "Guéret",
+              "postcode": "23120",
+              "street": "Rue de l'Église",
+              "lon": 1.998482,
+              "lat": 45.930222,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Église Saint-Sulpice, Rue de l'Église, 23120 Banize, France",
+              "address_line1": "Église Saint-Sulpice",
+              "address_line2": "Rue de l'Église, 23120 Banize, France",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "building.place_of_worship",
+                  "heritage",
+                  "religion",
+                  "religion.place_of_worship",
+                  "religion.place_of_worship.christianity",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.place_of_worship",
+                  "tourism.sights.place_of_worship.church"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.place_of_worship",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Église Saint-Sulpice",
+                      "osm_id": 179188787,
+                      "amenity": "place_of_worship",
+                      "ref:mhs": "PA00100003",
+                      "building": "church",
+                      "heritage": 2,
+                      "historic": "heritage",
+                      "osm_type": "w",
+                      "religion": "christian",
+                      "wikidata": "Q22951266",
+                      "wikipedia": "fr:Église Saint-Sulpice de Banise",
+                      "denomination": "catholic",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "2007-01-23"
+                  }
+              },
+              "place_id": "517850fa42c8f9ff3f59afc4b68311f74640f00102f9013334ae0a00000000920315c389676c697365205361696e742d53756c70696365"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9984819999999939,
+                  45.930222000353176
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Hilaire-le-Château",
+              "hamlet": "Moulin de Lardiller",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "Pont-Périt",
+              "lon": 1.9080717,
+              "lat": 45.9939354,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Pont-Périt, 23250 Saint-Hilaire-le-Château, France",
+              "address_line1": "Pont-Périt",
+              "address_line2": "23250 Saint-Hilaire-le-Château, France",
+              "name": "Pont-Périt",
+              "categories": [
+                  "heritage",
+                  "highway",
+                  "highway.path",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.bridge"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Pont-Périt",
+                      "layer": 1,
+                      "bridge": "yes",
+                      "osm_id": 180736076,
+                      "highway": "path",
+                      "ref:mhs": "PA00135406",
+                      "z_order": 100,
+                      "heritage": 3,
+                      "historic": "bridge",
+                      "osm_type": "w",
+                      "wikidata": "Q22976050",
+                      "wikipedia": "fr:Pont-Périt",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1995-04-10",
+                      "historic:civilization": "roman"
+                  }
+              },
+              "place_id": "51d8e033c81387fe3f59aa0e8c7736ff4640f00102f9014cd0c50a0000000092030b506f6e742d50c3a9726974"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.90797785,
+                  45.99384970034346
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Château de la Chassagne",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Hilaire-le-Château",
+              "hamlet": "Le Lac",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "D 10",
+              "lon": 1.9152564747277359,
+              "lat": 45.96801605,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Château de la Chassagne, D 10, 23250 Saint-Hilaire-le-Château, France",
+              "address_line1": "Château de la Chassagne",
+              "address_line2": "D 10, 23250 Saint-Hilaire-le-Château, France",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.castle"
+              ],
+              "details": [
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Château de la Chassagne",
+                      "osm_id": 182060093,
+                      "building": "yes",
+                      "historic": "castle",
+                      "osm_type": "w",
+                      "wikidata": "Q2971182",
+                      "wikipedia": "fr:Château de la Chassagne",
+                      "castle_type": "chateau"
+                  }
+              },
+              "place_id": "51b33ab1d6cfa4fe3f599a438c5ae8fb4640f00102f9013d04da0a000000009203184368c3a274656175206465206c6120436861737361676e65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9152372728746456,
+                  45.968028372276606
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Château de Massenon",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Ahun",
+              "hamlet": "Le Frais",
+              "municipality": "Guéret",
+              "street": "D 16",
+              "lon": 2.0373384070432,
+              "lat": 46.06157,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Château de Massenon, D 16, Ahun, France",
+              "address_line1": "Château de Massenon",
+              "address_line2": "D 16, Ahun, France",
+              "categories": [
+                  "access_limited",
+                  "access_limited.private",
+                  "building",
+                  "building.historic",
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.castle"
+              ],
+              "details": [
+                  "details.building",
+                  "details.heritage",
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Château de Massenon",
+                      "access": "private",
+                      "osm_id": 228542602,
+                      "ref:mhs": "PA00099981",
+                      "building": "yes",
+                      "heritage": 2,
+                      "historic": "castle",
+                      "osm_type": "w",
+                      "wikidata": "Q2969829",
+                      "wikipedia": "fr:Château de Massenon",
+                      "start_date": "C15",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1986-11-18"
+                  }
+              },
+              "place_id": "5139fde6be494c004059a98cd9f7e0074740f00102f9018a489f0d000000009203144368c3a274656175206465204d617373656e6f6e"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.037250033783178,
+                  46.06155298349888
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Croix de chemin du 16e siècle",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Michel-de-Veisse",
+              "hamlet": "La Chapelle",
+              "municipality": "Guéret",
+              "street": "D 55A1",
+              "lon": 2.07621159230038,
+              "lat": 45.96339005,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Croix de chemin du 16e siècle, D 55A1, Saint-Michel-de-Veisse, France",
+              "address_line1": "Croix de chemin du 16e siècle",
+              "address_line2": "D 55A1, Saint-Michel-de-Veisse, France",
+              "categories": [
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.wayside_cross"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Croix de chemin du 16e siècle",
+                      "osm_id": 328674565,
+                      "ref:mhs": "PA00100180",
+                      "heritage": 2,
+                      "historic": "wayside_cross",
+                      "osm_type": "w",
+                      "wikidata": "Q22951432",
+                      "wikipedia": "fr:Croix de chemin du 16e siècle",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1920-07-20"
+                  }
+              },
+              "place_id": "51409089d1149c004059aa51805d50fb4640f00102f901052d97130000000092031e43726f6978206465206368656d696e20647520313665207369c3a8636c65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.076211583147625,
+                  45.96339005246712
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Château du Monteil",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Le Monteil-au-Vicomte",
+              "isolated_dwelling": "Rocheplate",
+              "municipality": "Guéret",
+              "postcode": "23460",
+              "street": "D 37",
+              "lon": 1.9385249,
+              "lat": 45.9291687,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Château du Monteil, D 37, 23460 Le Monteil-au-Vicomte, France",
+              "address_line1": "Château du Monteil",
+              "address_line2": "D 37, 23460 Le Monteil-au-Vicomte, France",
+              "categories": [
+                  "access",
+                  "access.yes",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.castle"
+              ],
+              "details": [
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Château du Monteil",
+                      "access": "permissive",
+                      "osm_id": 2278696188,
+                      "historic": "castle",
+                      "osm_type": "n",
+                      "wikidata": "Q2971743",
+                      "wikipedia": "fr:Château du Monteil",
+                      "start_date": "C12",
+                      "castle_type": "défensif"
+                  }
+              },
+              "place_id": "51edb47faf3204ff3f59023efeffeef64640f00103f901fc24d287000000009203134368c3a274656175206475204d6f6e7465696c"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9385249000000002,
+                  45.929168700353344
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Dolmen dit Pierre-la-Fade",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Blessac",
+              "hamlet": "Sagnac",
+              "municipality": "Aubusson",
+              "postcode": "23200",
+              "street": "Chemin du Dolmen",
+              "lon": 2.1110694,
+              "lat": 45.9635359,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Dolmen dit Pierre-la-Fade, Chemin du Dolmen, 23200 Blessac, France",
+              "address_line1": "Dolmen dit Pierre-la-Fade",
+              "address_line2": "Chemin du Dolmen, 23200 Blessac, France",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details.historic",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Dolmen dit Pierre-la-Fade",
+                      "osm_id": 2320462188,
+                      "ref:mhs": "PA00100011",
+                      "historic": "archaeological_site",
+                      "osm_type": "n",
+                      "wikidata": "Q20182455",
+                      "site_type": "megalith",
+                      "wikipedia": "fr:Dolmen dit Pierre-la-Fade",
+                      "megalith_type": "dolmen",
+                      "heritage:operator": "mhs",
+                      "archaeological_site": "megalith",
+                      "mhs:inscription_date": 1889
+                  }
+              },
+              "place_id": "51d4b0845a78e30040593042f62455fb4640f00103f9016c714f8a00000000920319446f6c6d656e20646974205069657272652d6c612d46616465"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.1110694,
+                  45.96353590034812
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Dolmen de Ponsat",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Georges-la-Pouge",
+              "hamlet": "Ponsat d'en Bas",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "Chemin Rural du Dolmen à Chanseaud",
+              "lon": 1.940047,
+              "lat": 46.0064265,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Dolmen de Ponsat, Chemin Rural du Dolmen à Chanseaud, 23250 Saint-Georges-la-Pouge, France",
+              "address_line1": "Dolmen de Ponsat",
+              "address_line2": "Chemin Rural du Dolmen à Chanseaud, 23250 Saint-Georges-la-Pouge, France",
+              "categories": [
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.monument"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Dolmen de Ponsat",
+                      "osm_id": 3349928080,
+                      "ref:mhs": "PA00100161",
+                      "heritage": 2,
+                      "historic": "monument",
+                      "osm_type": "n",
+                      "wikidata": "Q22951417",
+                      "wikipedia": "fr:Dolmen de Ponsat",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1929-06-14"
+                  }
+              },
+              "place_id": "51203f1bb96e0aff3f59b2656495d2004740f00103f90190d8abc700000000920310446f6c6d656e20646520506f6e736174"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9400469999999999,
+                  46.006426500341504
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Fragment de colonne gallo-romaine",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Martial-le-Mont",
+              "hamlet": "La Couchezotte",
+              "municipality": "Guéret",
+              "postcode": "23150",
+              "street": "Route du Moulin",
+              "lon": 2.0936332,
+              "lat": 46.0503863,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Fragment de colonne gallo-romaine, Route du Moulin, 23150 Saint-Martial-le-Mont, France",
+              "address_line1": "Fragment de colonne gallo-romaine",
+              "address_line2": "Route du Moulin, 23150 Saint-Martial-le-Mont, France",
+              "categories": [
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.ruines"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Fragment de colonne gallo-romaine",
+                      "osm_id": 3369833396,
+                      "ref:mhs": "PA00100172",
+                      "heritage": 2,
+                      "historic": "ruins",
+                      "osm_type": "n",
+                      "wikidata": "Q22951427",
+                      "wikipedia": "fr:Fragment de colonne gallo-romaine",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1938-07-27"
+                  }
+              },
+              "place_id": "51028f5ec3c2bf004059410dec0e73064740f00103f901b493dbc800000000920321467261676d656e7420646520636f6c6f6e6e652067616c6c6f2d726f6d61696e65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.0936332,
+                  46.0503863003346
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Le Vieux Château",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Hilaire-le-Château",
+              "hamlet": "Le Mas Burget",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "D 941",
+              "lon": 1.879364,
+              "lat": 45.9861341,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Le Vieux Château, D 941, 23250 Saint-Hilaire-le-Château, France",
+              "address_line1": "Le Vieux Château",
+              "address_line2": "D 941, 23250 Saint-Hilaire-le-Château, France",
+              "categories": [
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details",
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Le Vieux Château",
+                      "osm_id": 3383575619,
+                      "ref:mhs": "PA00125512",
+                      "heritage": 3,
+                      "historic": "archaeological_site",
+                      "osm_type": "n",
+                      "wikidata": "Q22968921",
+                      "wikipedia": "fr:Motte castrale du Creux-du-Renard, dit le Vieux Château",
+                      "official_name": "Motte castrale du Creux-du-Renard, dit le Vieux Château",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1993-02-01"
+                  }
+              },
+              "place_id": "51d67954fcdf11fe3f59ae3967a439fe4640f00103f9014344adc9000000009203114c65205669657578204368c3a274656175"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.8793640000000003,
+                  45.98613410034464
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Borne milliaire dite La Pierre du Marteau",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Le Donzeil",
+              "hamlet": "La Pierre du Marteau",
+              "municipality": "Guéret",
+              "postcode": "23480",
+              "street": "D 60",
+              "lon": 2.0119559,
+              "lat": 46.0537278,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Borne milliaire dite La Pierre du Marteau, D 60, 23480 Le Donzeil, France",
+              "address_line1": "Borne milliaire dite La Pierre du Marteau",
+              "address_line2": "D 60, 23480 Le Donzeil, France",
+              "categories": [
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.boundary_stone"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Borne milliaire dite La Pierre du Marteau",
+                      "osm_id": 3383594327,
+                      "ref:mhs": "PA00100055",
+                      "heritage": 2,
+                      "historic": "boundary_stone",
+                      "osm_type": "n",
+                      "wikidata": "Q3387797",
+                      "wikipedia": "fr:Borne milliaire dite La Pierre du Marteau",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1929-03-08"
+                  }
+              },
+              "place_id": "5137f4bb557c1800405914a9748de0064740f00103f901578dadc900000000920329426f726e65206d696c6c69616972652064697465204c6120506965727265206475204d617274656175"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.0119559,
+                  46.05372780033409
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Dolmen n° 1 du Masneuf",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "La Chapelle-Saint-Martial",
+              "hamlet": "Vauve",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "Route de Limoges",
+              "lon": 1.9223254,
+              "lat": 46.0112371,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Dolmen n° 1 du Masneuf, Route de Limoges, 23250 La Chapelle-Saint-Martial, France",
+              "address_line1": "Dolmen n° 1 du Masneuf",
+              "address_line2": "Route de Limoges, 23250 La Chapelle-Saint-Martial, France",
+              "categories": [
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Dolmen n° 1 du Masneuf",
+                      "osm_id": 3412802129,
+                      "ref:mhs": "PA00100039",
+                      "heritage": 3,
+                      "historic": "archaeological_site",
+                      "osm_type": "n",
+                      "wikidata": "Q22951299",
+                      "wikipedia": "fr:Dolmen n° 1 du Masneuf",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1988-11-15"
+                  }
+              },
+              "place_id": "5168525447d8c1fe3f59933ba13770014740f00103f901513a6bcb00000000920317446f6c6d656e206ec2b02031206475204d61736e657566"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9223254,
+                  46.01123710034076
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Dolmen n° 2 du Masneuf",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "La Chapelle-Saint-Martial",
+              "hamlet": "Vauve",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "Route de Limoges",
+              "lon": 1.9221139,
+              "lat": 46.0111795,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Dolmen n° 2 du Masneuf, Route de Limoges, 23250 La Chapelle-Saint-Martial, France",
+              "address_line1": "Dolmen n° 2 du Masneuf",
+              "address_line2": "Route de Limoges, 23250 La Chapelle-Saint-Martial, France",
+              "categories": [
+                  "heritage",
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.archaeological_site"
+              ],
+              "details": [
+                  "details.heritage",
+                  "details.wiki_and_media"
+              ],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Dolmen n° 2 du Masneuf",
+                      "osm_id": 3412802130,
+                      "ref:mhs": "PA00100040",
+                      "heritage": 3,
+                      "historic": "archaeological_site",
+                      "osm_type": "n",
+                      "wikidata": "Q22951300",
+                      "wikipedia": "fr:Dolmen n° 2 du Masneuf",
+                      "heritage:operator": "mhs",
+                      "mhs:inscription_date": "1988-11-15"
+                  }
+              },
+              "place_id": "5102fe3a81fac0fe3f59b22c72546e014740f00103f901523a6bcb00000000920317446f6c6d656e206ec2b02032206475204d61736e657566"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9221138999999998,
+                  46.01117950034076
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Château du Liège",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Hilaire-le-Château",
+              "hamlet": "Coire",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "D 941",
+              "lon": 1.8729491022093563,
+              "lat": 45.99573385,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Château du Liège, D 941, 23250 Saint-Hilaire-le-Château, France",
+              "address_line1": "Château du Liège",
+              "address_line2": "D 941, 23250 Saint-Hilaire-le-Château, France",
+              "categories": [
+                  "building",
+                  "building.historic",
+                  "tourism",
+                  "tourism.sights"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Château du Liège",
+                      "osm_id": 228817263,
+                      "building": "yes",
+                      "historic": "manor",
+                      "osm_type": "w"
+                  }
+              },
+              "place_id": "517bf17a7e99f7fd3f5946ad293574ff4640f00102f9016f79a30d000000009203124368c3a274656175206475204c69c3a86765"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.872949117721048,
+                  45.99573387656214
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Village sculpté de Masgot",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Fransèches",
+              "hamlet": "Le Frais",
+              "municipality": "Guéret",
+              "postcode": "23480",
+              "street": "D 16",
+              "lon": 2.0352055,
+              "lat": 46.0373948,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Village sculpté de Masgot, D 16, 23480 Fransèches, France",
+              "address_line1": "Village sculpté de Masgot",
+              "address_line2": "D 16, 23480 Fransèches, France",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.monument"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Village sculpté de Masgot",
+                      "osm_id": 1882087226,
+                      "historic": "monument",
+                      "osm_type": "n"
+                  }
+              },
+              "place_id": "51571d39d21948004059433e525ac9044740f00103f9013a5f2e700000000092031a56696c6c616765207363756c7074c3a9206465204d6173676f74"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  2.0352054999999996,
+                  46.03739480033666
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Groupe statuaire de Sainte-Anne",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Chavanat",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "Rue du Longis",
+              "lon": 1.9636618,
+              "lat": 45.9527845,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Groupe statuaire de Sainte-Anne, Rue du Longis, 23250 Chavanat, France",
+              "address_line1": "Groupe statuaire de Sainte-Anne",
+              "address_line2": "Rue du Longis, 23250 Chavanat, France",
+              "categories": [
+                  "tourism",
+                  "tourism.sights",
+                  "tourism.sights.memorial",
+                  "tourism.sights.memorial.monument"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Groupe statuaire de Sainte-Anne",
+                      "osm_id": 1901125542,
+                      "historic": "monument",
+                      "osm_type": "n"
+                  }
+              },
+              "place_id": "51cc78b6a2286bff3f59a791aed7f4f94640f00103f901a6df50710000000092031f47726f75706520737461747561697265206465205361696e74652d416e6e65"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9636617999999997,
+                  45.95278450034976
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Maison du père Noel",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Mareilles",
+              "hamlet": "Le Pont",
+              "municipality": "Guéret",
+              "postcode": "23150",
+              "street": "Rue des Palisses",
+              "lon": 1.9819142,
+              "lat": 46.0529457,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "Maison du père Noel, Rue des Palisses, 23150 Mareilles, France",
+              "address_line1": "Maison du père Noel",
+              "address_line2": "Rue des Palisses, 23150 Mareilles, France",
+              "categories": [
+                  "tourism",
+                  "tourism.attraction"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "Maison du père Noel",
+                      "osm_id": 5424855407,
+                      "tourism": "attraction",
+                      "osm_type": "n"
+                  }
+              },
+              "place_id": "51e7a507aaebb5ff3f591bb3b9ecc6064740f00103f9016fb95843010000009203144d6169736f6e2064752070c3a87265204e6f656c"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9819142,
+                  46.05294570033421
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "lavoir",
+              "country": "France",
+              "country_code": "fr",
+              "region": "Metropolitan France",
+              "state": "Nouvelle-Aquitaine",
+              "county": "Creuse",
+              "city": "Saint-Georges-la-Pouge",
+              "hamlet": "Ribière",
+              "municipality": "Guéret",
+              "postcode": "23250",
+              "street": "Ribière",
+              "lon": 1.9578852,
+              "lat": 46.0141292,
+              "state_code": "NAQ",
+              "state_COG": "75",
+              "formatted": "lavoir, Ribière, 23250 Saint-Georges-la-Pouge, France",
+              "address_line1": "lavoir",
+              "address_line2": "Ribière, 23250 Saint-Georges-la-Pouge, France",
+              "categories": [
+                  "tourism",
+                  "tourism.attraction"
+              ],
+              "details": [],
+              "datasource": {
+                  "sourcename": "openstreetmap",
+                  "attribution": "© OpenStreetMap contributors",
+                  "license": "Open Database Licence",
+                  "url": "https://www.openstreetmap.org/copyright",
+                  "raw": {
+                      "name": "lavoir",
+                      "osm_id": 5424855410,
+                      "tourism": "attraction",
+                      "osm_type": "n"
+                  }
+              },
+              "place_id": "51a128756e7f53ff3f59acb052fcce014740f00103f90172b95843010000009203066c61766f6972"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  1.9578852,
+                  46.01412920034031
+              ]
+          }
+      }
+  ]
+}
