@@ -7,8 +7,9 @@ class CountriesFacade
     response = conn.get
 
     json = JSON.parse(response.body, symbolize_names: true)
-    
-    json.first[:capital].first
+    return nil if response.status == 404
+
+    json.first[:capital]&.first
   end
 
   def self.latlng(city)
