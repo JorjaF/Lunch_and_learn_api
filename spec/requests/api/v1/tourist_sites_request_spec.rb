@@ -30,7 +30,6 @@ RSpec.describe "TouristSites API", type: :request do
           "User-Agent"=>"Faraday v2.7.11"
             }).
           to_return(status: 200, body: File.read("spec/fixtures/destinations_response.json"), headers: {})
-
       end
 
       it "returns tourist sites for a valid country" do
@@ -103,7 +102,7 @@ RSpec.describe "TouristSites API", type: :request do
         expect(json_response["error"]).to eq("Capital of #{sad_path_country} not found")
       end
 
-      it "returns no values for a desolate waste land" do
+      it "returns no values for a place with no tourist sites" do
         get "/api/v1/tourist_sites?country=Uruguay"
 
         expect(response).to have_http_status(:ok)

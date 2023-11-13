@@ -1,11 +1,12 @@
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe RecipeFacade, type: :facade do
   describe ".recipes_by_country" do
     let(:country) { "italian" } 
 
     it "returns recipes for a specific country" do
-      # Stubbing Faraday to return a specific response for the test
+
       stub_request(:get, "https://api.edamam.com/api/recipes/v2")
         .with(
           query: {

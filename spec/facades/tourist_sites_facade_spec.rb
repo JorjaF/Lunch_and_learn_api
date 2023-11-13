@@ -29,7 +29,9 @@ RSpec.describe TouristSitesFacade, type: :facade do
       expect(destinations).to be_an(Array)
       expect(destinations).not_to be_empty
       expect(destinations.first).to be_an_instance_of(TouristSite)
-      
+      expect(destinations.first.name).to eq("Ruines du château")
+      expect(destinations.first.address).to eq("Ruines du château, D 37, 23460 Le Monteil-au-Vicomte, France")
+      expect(destinations.first.place_id).to eq("514f4e194fdd03ff3f599c1feab7f0f64640f00102f9016e1b800a000000009203125275696e6573206475206368c3a274656175")
     end
   end
 end
