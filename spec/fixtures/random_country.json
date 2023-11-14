@@ -1,61 +1,61 @@
 [
-  {
-      "name": {
-          "common": "Turks and Caicos Islands",
-          "official": "Turks and Caicos Islands",
-          "nativeName": {
-              "eng": {
-                  "official": "Turks and Caicos Islands",
-                  "common": "Turks and Caicos Islands"
-              }
-          }
-      },
-      "tld": [
-          ".tc"
-      ],
-      "cca2": "TC",
-      "ccn3": "796",
-      "cca3": "TCA",
-      "independent": false,
-      "status": "officially-assigned",
-      "unMember": false,
-      "currencies": {
-          "USD": {
-              "name": "United States dollar",
-              "symbol": "$"
-          }
-      },
-      "idd": {
-          "root": "+1",
-          "suffixes": [
-              "649"
-          ]
-      },
-      "capital": [
-          "Cockburn Town"
-      ],
-      "altSpellings": [
-          "TC"
-      ],
-      "region": "Americas",
-      "subregion": "Caribbean",
-      "languages": {
-          "eng": "English"
-      },
-      "translations": {
-          "ara": {
-              "official": "جزر توركس وكايكوس",
-              "common": "جزر توركس وكايكوس"
-          },
-          "bre": {
-              "official": "Inizi Turks ha Caicos",
-              "common": "Inizi Turks ha Caicos"
-          },
-          "ces": {
-              "official": "Turks a Caicos",
-              "common": "Turks a Caicos"
-          },
-          "cym": {
+    {
+    "name": {
+        "common": "Turks and Caicos Islands",
+        "official": "Turks and Caicos Islands",
+        "nativeName": {
+            "eng": {
+                "official": "Turks and Caicos Islands",
+                "common": "Turks and Caicos Islands"
+            }
+        }
+    },
+    "tld": [
+        ".tc"
+    ],
+    "cca2": "TC",
+    "ccn3": "796",
+    "cca3": "TCA",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "currencies": {
+        "USD": {
+            "name": "United States dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "649"
+        ]
+    },
+    "capital": [
+        "Cockburn Town"
+    ],
+    "altSpellings": [
+        "TC"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+        "eng": "English"
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر توركس وكايكوس",
+            "common": "جزر توركس وكايكوس"
+        },
+        "bre": {
+            "official": "Inizi Turks ha Caicos",
+            "common": "Inizi Turks ha Caicos"
+        },
+        "ces": {
+            "official": "Turks a Caicos",
+            "common": "Turks a Caicos"
+        },
+        "cym": {
               "official": "Turks and Caicos Islands",
               "common": "Turks and Caicos Islands"
           },

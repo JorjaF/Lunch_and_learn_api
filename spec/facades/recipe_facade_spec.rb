@@ -13,7 +13,7 @@ RSpec.describe RecipeFacade, type: :facade do
             "type" => "public",
             "app_id" => "fc7547dd",
             "app_key" => Rails.application.credentials.dig(:edamam, :app_key),
-            "cuisineType" => country
+            "q" => country
           }
         )
         .to_return(

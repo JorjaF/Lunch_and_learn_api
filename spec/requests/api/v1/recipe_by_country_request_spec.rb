@@ -3,18 +3,18 @@ require "webmock/rspec"
 
 RSpec.describe "API V1 Recipes", type: :request do
   describe "GET /api/v1/recipes" do
-    let(:country) { "Chinese" } 
+    let(:country) { "China" } 
 
     before do
       app_id = Rails.application.credentials.dig(:edamam, :app_id)
       app_key = Rails.application.credentials.dig(:edamam, :app_key)
-      stub_request(:get, "https://api.edamam.com/api/recipes/v2?type=public&app_id=#{app_id}&app_key=#{app_key}&cuisineType=Chinese")
+      stub_request(:get, "https://api.edamam.com/api/recipes/v2?type=public&app_id=#{app_id}&app_key=#{app_key}&q=China")
         .to_return(
           status: 200,
           body: File.read("spec/fixtures/recipes_by_country.json"),
           headers: { "Content-Type" => "application/json" }
         )
-      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{app_id}&app_key=#{app_key}&cuisineType=butt&type=public").
+      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{app_id}&app_key=#{app_key}&q=adfagreeg&type=public").
         with(
           headers: {
           "Accept"=>"*/*",
@@ -32,7 +32,7 @@ RSpec.describe "API V1 Recipes", type: :request do
           }).
         to_return(status: 200, body: File.read("spec/fixtures/random_country.json"), headers: {})
 
-      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{app_id}&app_key=#{app_key}&cuisineType=Greek&type=public").
+      stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{app_id}&app_key=#{app_key}&q=Greece&type=public").
         with(
           headers: {
           "Accept"=>"*/*",
@@ -70,14 +70,14 @@ RSpec.describe "API V1 Recipes", type: :request do
     end
 
     it "returns an empty array if user does not enter a country name, or ask use to choose for the" do
-      get "/api/v1/recipes?country=butt"
+      get "/api/v1/recipes?country=adfagreeg"
       json_response = JSON.parse(response.body)
 
       expect(json_response["data"]).to eq([])
     end
     
     it "can get recipes for a random country" do
-      allow(RandomCountryFacade).to receive(:random_country).and_return("Greek")
+      allow(RandomCountryFacade).to receive(:random_country).and_return("Greece")
       get "/api/v1/recipes"
       json_response = JSON.parse(response.body)
       expect(json_response["data"]).to be_present

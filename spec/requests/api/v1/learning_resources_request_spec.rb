@@ -35,7 +35,7 @@ RSpec.describe "Learning Resources API", type: :request do
     end
 
     it "returns learning resources for a specific country" do
-      get "/api/v1/learning_resources?country_name=#{country_name}"
+      get "/api/v1/learning_resources?country=#{country_name}"
 
       expect(response).to have_http_status(:ok)
 
@@ -86,7 +86,7 @@ RSpec.describe "Learning Resources API", type: :request do
             headers: { "Content-Type" => "application/json" }
           )
 
-      get "/api/v1/learning_resources?country_name=fdsfafvdcs"
+      get "/api/v1/learning_resources?country=fdsfafvdcs"
 
       expect(response).to have_http_status(:ok)
 

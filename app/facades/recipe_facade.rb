@@ -4,7 +4,7 @@ class RecipeFacade
       faraday.params["type"] = "public"
       faraday.params["app_id"] = Rails.application.credentials.dig(:edamam, :app_id)
       faraday.params["app_key"] = Rails.application.credentials.dig(:edamam, :app_key)
-      faraday.params["cuisineType"] = country
+      faraday.params["q"] = country
     end
     response = conn.get
 
