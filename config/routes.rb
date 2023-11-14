@@ -5,11 +5,11 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v1 do
-      resources :recipes, only: [:index]
+      resources :recipes, only: [:index, :show]
       resources :random_country, only: [:index]
       resources :learning_resources, only: [:index]
       resources :users, only: [:create, :new]
-
+      resources :sessions, only: [:create]
     end
   end
 end
