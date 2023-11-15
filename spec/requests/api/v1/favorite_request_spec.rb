@@ -40,6 +40,24 @@ RSpec.describe "Favorite API", type: :request do
         expect(JSON.parse(response.body)).to eq({ "error" => "Invalid api_key" })
       end
     end
+
+    context "with missing params" do
+      let(:invalid_params) do
+        {
+          api_key: api_key,
+          recipe_link: "https://www.tastingtable.com/...",
+          recipe_title: "Crab Fried Rice (Khaao Pad Bpu)"
+        }
+      end
+
+      it "returns an error for invalid api_key" do
+        post "/api/v1/favorites", params: invalid_params, as: :json
+
+        expect(response).to have_http_status(:unprocessable_entity)
+        expect(JSON.parse(response.body)).to eq({ "error" => "Country can't be blank"})
+      end
+    end
+
   end
 
   describe "GET /api/v1/favorites" do
@@ -56,19 +74,13 @@ RSpec.describe "Favorite API", type: :request do
     end
 
     context "with invalid information" do
-      let(:invalid_params) do
-        {
-          api_key: "invalid_key",
-          country: "",
-          recipe_link: "https://www.tastingtable.com/...",
-          recipe_title: "Crab Fried Rice (Khaao Pad Bpu)"
-        }
-        it "returns an error for invalid api_key" do
-          post "/api/v1/favorites", params: invalid_params, as: :json
+      before do
+        get "/api/v1/favorites", params: { api_key: "invalid_key" }
+      end
 
-          expect(response).to have_http_status(:unauthorized)
-          expect(JSON.parse(response.body)).to eq({ "error" => "Invalid api_key" })
-        end
+      it "returns an error" do
+        expect(response).to have_http_status(:unauthorized)
+        expect(JSON.parse(response.body)).to eq({ "error" => "Invalid api_key" })
       end
     end
   end
