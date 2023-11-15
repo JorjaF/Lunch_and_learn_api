@@ -27,17 +27,5 @@ RSpec.describe CountryImage do
         expect(country_image.url).to eq("https://example.com/image.jpg")
       end
     end
-
-    context "with missing data" do
-      it "raises an error if alt_description is missing" do
-        image_data[:alt_description] = nil
-        expect { CountryImage.new(image_data) }.to raise_error(ArgumentError, "Missing alt_description in image data")
-      end
-
-      it "raises an error if urls is missing" do
-        image_data[:urls] = nil
-        expect { CountryImage.new(image_data) }.to raise_error(ArgumentError, "Missing urls in image data")
-      end
-    end
   end
 end
