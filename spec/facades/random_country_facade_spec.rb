@@ -1,5 +1,7 @@
 
 require "rails_helper"
+require "webmock/rspec"
+
 
 RSpec.describe RandomCountryFacade, type: :facade do
   describe ".random_country" do
