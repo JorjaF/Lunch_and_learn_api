@@ -1,6 +1,4 @@
 class Api::V1::SessionsController < ApplicationController
-  before_action :authenticate_user, only: [:destroy]
-
   def create
     user = User.find_by(email: params[:email])
 
@@ -12,14 +10,6 @@ class Api::V1::SessionsController < ApplicationController
   end
 
   private
-
-  def authenticate_user
-    api_key = request.headers['HTTP_API_KEY']
-
-    unless api_key && (user = User.find_by(api_key: api_key))
-      render json: { error: 'Unauthorized' }, status: :unauthorized
-    end
-  end
 
   def user_response(user)
     {

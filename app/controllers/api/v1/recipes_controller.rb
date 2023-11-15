@@ -6,16 +6,4 @@ class Api::V1::RecipesController < ApplicationController
 
     render json: RecipeSerializer.new(recipes) 
   end
-
-  private
-
-  def recipe_data(recipes)
-    if recipes.present?
-      RecipeSerializer.new(recipes).serializable_hash[:data].map do |recipe|
-        recipe[:attributes]
-      end
-    else
-      []
-    end
-  end
 end
