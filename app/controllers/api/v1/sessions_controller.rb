@@ -5,7 +5,7 @@ class Api::V1::SessionsController < ApplicationController
     if user && user.authenticate(params[:password])
       render json: user_response(user), status: :ok
     else
-      render json: { error: 'Invalid credentials' }, status: :unauthorized
+      render json: { error: "Invalid credentials" }, status: :unauthorized
     end
   end
 
@@ -14,7 +14,7 @@ class Api::V1::SessionsController < ApplicationController
   def user_response(user)
     {
       data: {
-        type: 'user',
+        type: "user",
         id: user.id,
         attributes: {
           name: user.name,
