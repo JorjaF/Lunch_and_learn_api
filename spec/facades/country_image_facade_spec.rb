@@ -1,4 +1,6 @@
 require "rails_helper"
+require "webmock/rspec"
+
 
 RSpec.describe CountryImageFacade do
   describe ".country_image" do

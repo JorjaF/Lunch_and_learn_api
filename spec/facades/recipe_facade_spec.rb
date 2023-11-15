@@ -1,4 +1,5 @@
 require "rails_helper"
+require "webmock/rspec"
 
 RSpec.describe RecipeFacade, type: :facade do
   describe ".recipes_by_country" do

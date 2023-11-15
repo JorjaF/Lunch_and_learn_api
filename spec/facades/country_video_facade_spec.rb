@@ -1,4 +1,6 @@
 require "rails_helper"
+require "webmock/rspec"
+
 
 RSpec.describe CountryVideoFacade do
   describe ".country_video" do
@@ -18,7 +20,6 @@ RSpec.describe CountryVideoFacade do
           body: File.read("spec/fixtures/youtube_video_response.json"),
           headers: { "Content-Type" => "application/json" }
         )
-
       video_data = CountryVideoFacade.country_video(country)
 
   
